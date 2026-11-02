@@ -1,0 +1,11 @@
+.table-scroll { overflow-x: auto; margin: 1.5rem 0 2.5rem; }
+table { width: 100%; border-collapse: collapse; font-size: .95rem; }
+caption { text-align: left; font-weight: bold; margin-bottom: .5rem; }
+th, td { text-align: left; vertical-align: top; padding: .6rem .7rem .6rem 0; border-bottom: 1px solid #ddd; }
+th { font-weight: bold; }
+td:last-child { min-width: 7rem; }
+.releases { padding-left: 1.25rem; }
+.releases li { margin-bottom: 1.5rem; }
+.releases p { margin: .35rem 0; }
+[aria-current="page"] { font-weight: bold; }
+@media (max-width: 40rem) { table { min-width: 35rem; } }

@@ -1,0 +1,17 @@
+html { color-scheme: light; }
+body { max-width: 64rem; margin: 2rem auto; padding: 0 1.25rem; color: #222; background: #fff; font: 1.05rem/1.55 Georgia, serif; }
+a { color: #174f90; text-underline-offset: .15em; }
+a:focus-visible { outline: 3px solid #174f90; outline-offset: 4px; }
+header { margin-bottom: 2rem; }
+h1 { font-size: clamp(2rem, 7vw, 3rem); line-height: 1.15; margin-bottom: .4rem; }
+h2 { margin-top: 3rem; font-size: 1.7rem; }
+h3 { font-size: 1.2rem; line-height: 1.35; margin-bottom: .5rem; }
+nav { margin: 1.5rem 0; }
+.posters { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2.5rem 2rem; align-items: start; }
+article { min-width: 0; }
+article p { margin: .5rem 0; }
+.poster-link { display: block; }
+img { display: block; max-width: 100%; width: 100%; height: auto; }
+.note, .credit, footer { color: #555; font-size: .95rem; }
+footer { margin: 3rem 0 1rem; border-top: 1px solid #ddd; padding-top: 1rem; }
+@media (max-width: 40rem) { .posters { grid-template-columns: 1fr; } body { margin-top: 1.25rem; } }

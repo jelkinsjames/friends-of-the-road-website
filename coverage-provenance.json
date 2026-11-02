@@ -1,0 +1,24 @@
+{
+  "source_repository": "jelkinsjames/shonepine-website",
+  "source_files": {
+    "press-radio.html": {
+      "blob_sha": "aa7e828c7c68657e600e82da6613f2105852d340",
+      "press_rows": 22,
+      "radio_rows": 23
+    },
+    "music.html": {
+      "blob_sha": "2bc19f8a2e94a9d487e01ef10763bc9e502d1587",
+      "canon_entries": 10
+    }
+  },
+  "imported_at": "2026-11-01",
+  "band_releases": 5,
+  "related_releases": 5,
+  "scope": "Only Friends of the Road press/radio section and the full explicitly labeled Friends of the Road canon. Shonepine solo coverage and solo releases excluded. Source files unchanged.",
+  "bandcamp_cross_check": {
+    "date": "2026-11-01",
+    "catalog": "https://friends-of-the-road.bandcamp.com/",
+    "result": "All 10 imported canon entries checked against artist or label Bandcamp release pages; titles, artist attribution, release dates and summarized track information agree. No corrections required.",
+    "additional_catalog_item": "My Sun Rises Twice by Shonepine is listed on the band account but was outside the copied non-Shonepine canon section."
+  }
+}
